@@ -2,7 +2,35 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --cor01:#6E5FF5;
+    --cor02:#5F72F5;
+    --cor03:#5FA0F5;
+    --cor-preto:#000000;
+    --cor-branca:#FFFFFF;
+}
+@font-face {
+    font-family: 'tech';
+    src: url(Fontes/tech.otf) format('opentype');
+}
+
 header{
-    background-color: blue;
-    height: 70px;
+    background-color: var(--cor02);
+    height: 78px;
+}
+h1{
+    display: inline-block;
+    font-family:'tech';
+    color: var(--cor-branca);
+}
+nav > a{
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+a:hover{
+    background-color: var(--cor-branca);
+    padding: 1px;
+}
+a:{
+    content: ('a');
 }
