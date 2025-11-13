@@ -4,7 +4,7 @@
 }
 :root{
     --cor01:#6E5FF5;
-    --cor02:#5F72F5;
+    --cor02:#4555bb;
     --cor03:#5FA0F5;
     --cor-preto:#000000;
     --cor-branca:#FFFFFF;
@@ -14,9 +14,21 @@
     src: url(Fontes/tech.otf) format('opentype');
 }
 
+body{
+    background-image: linear-gradient(to bottom,rgb(15, 15, 189), #6E5FF5 , rgb(139, 122, 235));
+    height: 772px;
+}
 header{
     background-color: var(--cor02);
     height: 78px;
+
+}
+main{
+    background-color: var(--cor-branca);
+    height: 400px;
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 h1{
     display: inline-block;
@@ -35,3 +47,4 @@ a:hover{
 a:after{
     content: " |";
 }
+
