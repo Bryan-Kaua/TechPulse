@@ -26,11 +26,12 @@ h1{
 nav > a{
     text-decoration: none;
     color: var(--cor-preto);
+    margin: 0px 2px 0px 2px;
 }
 a:hover{
     background-color: var(--cor-branca);
     padding: 1px;
 }
-a:{
-    content: ('a');
+a:after{
+    content: " |";
 }
